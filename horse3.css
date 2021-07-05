@@ -1,0 +1,104 @@
+@media (max-width: 670px){
+  /*ハンバーガーメニュー*/
+  .hamburger {
+    right : 8px;
+  }
+  .hamburger span {
+    width   : 24px;
+  }
+  .hamburger::after {
+    width: 32px;
+    height: 32px;
+    left: 70%;
+    top: 70%;
+  }
+  .hamburger.active span:nth-child(1),.hamburger.active span:nth-child(3) {
+    top: 14px;
+    width: 18px;
+  }  
+  nav.globalMenuSp ul {
+    background: #e7ebf7;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  nav.globalMenuSp ul li {
+    list-style-type: none;
+    padding: 0;
+    width: 20%;
+  }
+  header li {
+    margin-left: 0px;
+    line-height: 32px;
+  }
+  header li a {
+    font-size: 0.5rem;
+  }
+  /*ヘッダー*/
+  .header-logo {
+    margin-left: -16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  .header-logo img {
+    width: 35%;
+  }  
+  /*トップ*/
+  .top h1 {
+    font-size: 1rem;
+    margin: 120px 0 40px 0;
+  }
+  .dounuts img {
+    margin-bottom: 56px;
+    width: 90%;
+  }  
+  /*作品概要*/
+  .top-description {
+    width: 90%;
+  }
+  .top-description h2,.details h2 {
+    font-size: 1.1rem;
+  }
+  .top-description h3 {
+    font-size: 0.9rem;
+    margin: 40px 0 24px;
+  }  
+  .description-p {
+    font-size: 0.8rem;
+  }  
+  .setting,.purpose,.improve,.color {
+    margin-top: 40px;
+  }  
+  .setting h4,.purpose h4,.improve h4,.color h4 {
+    font-size: 0.9rem;
+  }  
+  .setting p,.purpose p,.improve p,.color p,.site {
+    font-size: 0.8rem;
+  }
+  .site {
+    margin-top: 24px;
+  }
+  /*作品詳細*/
+  .details {
+    padding-top: 32px;
+    width: 90%;
+  }
+  .top-detail p,.event-detail p,.experience-detail p,.question-detail p {
+    padding: 16px;
+    font-size: 0.7rem;
+  }  
+  .event-img img,.experience-img img,.question-img img {
+    width: 100%;
+    margin-top: 64px;
+  }
+  .time {
+    padding: 64px 0;
+    width: 90%;
+  }
+  .time h5 {
+    font-size: 0.9rem;
+  }
+  
+}

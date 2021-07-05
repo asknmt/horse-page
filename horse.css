@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  font-feature-settings: "palt";
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #4b4b4b;
+}
+/*ヘッダー*/
+header {
+  z-index: 10;
+  height: 56px;
+  background-color: #f1f4fc;
+  position: fixed;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-logo {
+  margin-left: 56px;
+}
+.header-logo img {
+  width: 50%;
+  margin: 0 auto;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  margin-right: 56px;
+}
+header li {
+  margin-left: 32px;
+  line-height: 56px;
+}
+header li a {
+  color: #5a4944;
+  font-size: 1rem;
+  display: block;
+}
+header li:hover {
+  cursor: pointer!important;
+}
+/*ハンバーガー*/
+.hamburger {
+  display: none;
+}
+/*トップ*/
+.top {
+  text-align: center;
+}
+.top-br {
+  display: none;
+}
+.top h1 {
+  margin: 184px 0 64px 0;
+  font-size: 2rem;
+  border-bottom: solid 5px #dae4ff;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+.horse img {
+  margin-bottom: 104px;
+  width: 80%;
+}
+/*作品概要*/
+.top-description {
+  width: 80%;
+  margin: 0 auto;
+}
+.top-description h2,.details h2 {
+  font-size: 1.8rem;
+  border-bottom: solid 5px #dae4ff;
+  padding-bottom: 4px;
+  display: inline;
+}
+.top-description h3 {
+  margin: 40px 0 64px 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.description-p {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  white-space: pre-line;
+}
+.setting h4,.purpose h4,.improve h4,.color h4 {
+  font-size: 1.3rem;
+  border-bottom: solid 5px #dae4ff;
+  padding-bottom: 4px;
+  display: inline;
+}
+.top-p {
+  margin-top: 32px;
+}
+.setting p,.purpose p,.improve p,.color p{
+  margin-bottom: 24px;
+  font-size: 1.2rem;
+}
+.setting,.purpose,.improve,.color {
+  margin-top: 64px;
+}
+.horse-url {
+  font-size: 1rem;
+}
+.site {
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+/*作品詳細*/
+.details {
+  padding-top: 104px;
+  width: 80%;
+  margin: 0 auto;
+}
+.details-img {
+  text-align: center;
+}
+.details-img img {
+  width: 100%;
+  margin-top: 80px;
+}
+.top-detail p,.event-detail p,.experience-detail p,.question-detail p {
+  margin-top: 40px;
+  padding: 40px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: #f1f4fc;
+}
+/*コンセプト*/
+.event-img img,.experience-img img,.question-img img {
+  width: 100%;
+  margin-top: 136px;
+}
+
+.time {
+  padding: 104px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.time h5 {
+  font-size: 1.5rem;
+  border-bottom: solid 5px #dae4ff;
+  padding-bottom: 4px;
+  display: inline-block;
+}
