@@ -14,7 +14,6 @@ header {
   z-index: 10;
   height: 56px;
   background-color: #f1f4fc;
-  position: fixed;
 }
 .site-header {
   display: flex;
