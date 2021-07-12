@@ -6,7 +6,6 @@ html {
   font-size: 62.5%;
 }
 body {
-  color: #4b4b4b;
   font-family: "ヒラギノ角ゴ ProN",Arial,sans-serif,"FOT-筑紫B丸ゴシック Std","貂明朝テキスト","DNP 秀英丸ゴシック Std","游ゴシック体"
 }
 /*ヘッダー*/
@@ -38,7 +37,6 @@ header li {
   line-height: 56px;
 }
 header li a {
-  color: #5a4944;
   font-size: 1rem;
   display: block;
 }
