@@ -26,7 +26,7 @@
   nav.globalMenuSp ul li {
     list-style-type: none;
     padding: 0;
-    width: 20%;
+    width: 30%;
   }
   header li {
     margin-left: 0px;
@@ -34,6 +34,10 @@
   }
   header li a {
     font-size: 0.5rem;
+  }
+  header ul {
+    display : flex;
+    flex-wrap: wrap;
   }
   /*ヘッダー*/
   .header-logo {
