@@ -39,6 +39,7 @@ header li {
 header li a {
   font-size: 1rem;
   display: block;
+  color: #222;
 }
 header li:hover {
   cursor: pointer!important;
