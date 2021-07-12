@@ -109,6 +109,17 @@ header li:hover {
   font-size: 1.2rem;
   margin-top: 40px;
 }
+.site-concept {
+  font-size: 1.3rem;
+  margin-top: 56px;
+  font-weight: normal;
+}
+.concept {
+  border-bottom: solid 5px #dae4ff;
+  padding-bottom: 2px;
+  display: inline;
+}
+
 /*作品詳細*/
 .details {
   padding-top: 104px;
