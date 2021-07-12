@@ -168,6 +168,12 @@
     padding: 24px;
     font-size: 1rem;
   }  
+    .site-concept {
+    font-size: 1.1rem;
+    margin-top: 40px;
+    line-height: 1.2;
+  }  
+
   /*コンセプト*/
 .event-img img,.experience-img img,.question-img img {
   margin-top: 104px;
