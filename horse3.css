@@ -97,16 +97,15 @@
     width: 100%;
     margin-top: 64px;
   }
-    .site-concept {
-    font-size: 1.3rem;
-    margin-top: 56px;
-    font-weight: normal;
-  }
+   .site-concept {
+    font-size: 0.9rem;
+    margin-top: 32px;
+  }  
   .concept {
-    border-bottom: solid 5px #dae4ff;
-    padding-bottom: 2px;
-    display: inline;
-  }
+    border-bottom: solid 1px #dae4ff;
+    padding-bottom: 1px;
+  }  
+
 
   .time {
     padding: 64px 0;
