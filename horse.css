@@ -83,12 +83,12 @@ header li:hover {
   text-align: center;
 }
 .description-p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   white-space: pre-line;
 }
 .setting h4,.purpose h4,.improve h4,.color h4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   border-bottom: solid 5px #dae4ff;
   padding-bottom: 4px;
   display: inline;
@@ -98,20 +98,20 @@ header li:hover {
 }
 .setting p,.purpose p,.improve p,.color p,.horse-url{
   margin-bottom: 24px;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 .setting,.purpose,.improve,.color {
   margin-top: 64px;
 }
 .horse-url {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .site {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   margin-top: 40px;
 }
 .site-concept {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   margin-top: 56px;
   font-weight: normal;
 }
@@ -137,7 +137,7 @@ header li:hover {
 .top-detail p,.event-detail p,.experience-detail p,.question-detail p {
   margin-top: 40px;
   padding: 40px;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   background-color: #f1f4fc;
 }
